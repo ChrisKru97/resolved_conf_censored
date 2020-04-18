@@ -1,0 +1,52 @@
+name: resolved_conf
+description: Resolved konference
+
+version: 1.1.0+13
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  fluro: ^1.6.3
+  flutter_staggered_grid_view: ^0.3.0
+  flutter_launcher_icons: ^0.7.4
+  carousel_slider: ^2.0.0
+  url_launcher: ^5.4.2
+  google_maps_flutter: ^0.5.26
+
+flutter:
+  assets:
+    - splash.jpg
+    - map.jpg
+    - program.jpg
+    - background.jpg
+    - speakers.jpg
+    - contacts.jpg
+    - speaker_0.jpg
+    - speaker_1.jpg
+    - speaker_2.jpg
+    - speaker_3.jpg
+    - speaker_4.jpg
+    - speaker_5.jpg
+    - speaker_6.jpg
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: fonts/Nunito-Regular.ttf
+        - asset: fonts/Nunito-Bold.ttf
+          weight: 500
+    - family: Dosis
+      fonts:
+        - asset: fonts/Dosis-Regular.ttf
+        - asset: fonts/Dosis-Bold.ttf
+          weight: 500
+  uses-material-design: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
